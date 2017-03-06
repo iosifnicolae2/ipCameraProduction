@@ -1,0 +1,34 @@
+{
+  "name": "ipcamera_production",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iosifnicolae2/ipCameraProduction.git"
+  },
+  "keywords": [
+    "camera",
+    "angular",
+    "viewer",
+    "business",
+    "admin"
+  ],
+  "author": "Nicolae Iosif PFA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iosifnicolae2/ipCameraProduction/issues"
+  },
+  "homepage": "https://github.com/iosifnicolae2/ipCameraProduction#readme",
+  "dependencies": {
+    "basic-auth": "^1.1.0",
+    "cors": "^2.8.1",
+    "express": "^4.15.1",
+    "mssql": "^3.3.0",
+    "request": "^2.80.0"
+  }
+}

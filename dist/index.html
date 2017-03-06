@@ -1,0 +1,406 @@
+<!doctype html>
+<html >
+<head>
+  <meta charset="utf-8">
+  <title>IpCameras</title>
+  <base href="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+<link rel="prefetch" href="assets/css/owl.carousel.min.css">
+<link rel="prefetch" href="assets/css/owl.theme.default.min.css">
+
+
+<link rel="prefetch" href="assets/js/jquery-1.9.1.min.js">
+<link rel="prefetch" href="assets/js/jssor.core.js">
+<link rel="prefetch" href="assets/js/jssor.utils.js">
+<link rel="prefetch" href="assets/js/jssor.slider.js">
+<link rel="prefetch" href="assets/js/owl.carousel.js">
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAvMicSOrkKNDhgevlz43ShWYD-9BEfwM"></script>
+</head>
+
+<body class="menu_opened">
+
+  <app-root class="full">Loading...</app-root>
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+
+
+
+  <style>
+  .full{
+    position:fixed;
+        left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  html{
+    background-color:grey;
+  }
+  *{
+      box-sizing: border-box;
+  }
+app-slideshow app-camera-view {
+    width: 100%!important;
+    height: 100%;
+}
+       app-slideshow  app-camera-view>div> h2{
+            width:100%!important;
+            text-align: center!important;
+        }
+        app-slideshow app-camera-view>div> video{
+            width:100%!important;
+    float: none!important;
+            margin:0 auto;
+            height:100%!important;
+        }
+        body,#view_wrapper>div,app-slideshow{
+                float: left;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+        }
+        #jssor_1{
+            height:100%;
+            width:100%;
+        }
+        #view_wrapper{
+    position: relative;
+    width: 100%;
+    margin-top: 19px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    padding-top: 48px;
+    max-width: 1620px;
+    margin-left: auto;
+    margin-right: auto;
+        }
+        app-camera-view.grid1{
+          width: 100%;
+    height: 100%;
+        }
+        .grid1 video{
+    display: block;
+    text-align: center;
+    min-width: 250px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+        app-camera-view.grid2,app-tracking-camera.grid2{
+          width: 50%;
+    height: 100%;
+        }
+        app-camera-view.grid4,app-tracking-camera.grid4{
+          width: 50%;
+          height: 50%;
+        }
+       app-camera-view.grid6,app-tracking-camera.grid6{
+          width: 33.33%;
+          height: 50%;
+        }
+       app-camera-view.grid3,app-tracking-camera.grid3{
+          width: 50%;
+          height: 50%;
+        }
+
+       app-camera-view.grid3_4,app-tracking-camera.grid3_4{
+          width:25%;
+          height: 33.33%;
+        }
+        app-camera-view.grid3.last_one,app-tracking-camera.grid3.last_one{
+          width: 100%;
+    height: 50%;
+        }
+        app-camera-view.grid8,app-camera-view.grid9,app-camera-view.grid10,app-camera-view.grid11,app-tracking-camera.grid8,app-tracking-camera.grid9,app-tracking-camera.grid10,app-tracking-camera.grid11{
+
+    height: 33.33%;
+        }
+.grid2 video{
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+ app-camera-view.grid3.last_one video{
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    object-fit: cover;
+}
+app-multiple-slideshow .controll_btn{
+        width: 14px!important;
+    height: 14px!important;
+}
+app-multiple-slideshow a.open_camera{
+    width: 24px!important;
+    height: 23px!important;
+    bottom: 0px!important;
+    right: 3px!important;
+}
+
+app-multiple-slideshow a.open_hq_img{
+
+    width: 24px!important;
+    height: 23px!important;
+    bottom: 0px!important;
+    right: 23px!important;
+}
+.owl-stage-outer,.owl-stage{
+    max-width: initial!important;
+}
+.owl-carousel,.owl-stage-outer,.owl-stage,.owl-item{
+    height:100%;
+}
+body.menu_opened .setImageUpdate,body.menu_opened .slideshow-menu-timer{
+    display:block;
+}
+        </style>
+
+<script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/jssor.core.js"></script>
+    <script type="text/javascript" src="assets/js/jssor.utils.js"></script>
+    <script type="text/javascript" src="assets/js/jssor.slider.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+   <script>
+
+   (function($){
+    $.fn.moveTo = function(selector){
+        return this.each(function(){
+            var cl = $(this).clone();
+            $(cl).appendTo(selector);
+            $(this).remove();
+        });
+    };
+})(jQuery);
+
+
+   var FullscreenToggle = function(fullscreen){
+        if(!fullscreen)
+        $("body").addClass("menu_opened");
+        else
+        $("body").removeClass("menu_opened");
+   }
+
+   var jssor_multiple_timer=localStorage['jssor_multiple_timer']||5;
+   var jssor_multiple_timer_vertical=localStorage['jssor_multiple_timer_vertical']||5;
+   var update_slideshowTimer = function(timer){
+        localStorage['jssor_multiple_timer'] = jssor_multiple_timer = timer;
+        start_jssor_slideshow();
+        
+   };
+   var update_slideshowTimerVertical = function(timer){
+        localStorage['jssor_multiple_timer_vertical'] = jssor_multiple_timer_vertical = timer;
+        start_jssor_slideshow();
+        
+   };
+   
+ var sliderhOptions = {
+                    $AutoPlay: false,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                    $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+                    $AutoPlayInterval: 1*1000,   
+					$PauseOnHover: 0,                               //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+                                                   //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+                    $SlideDuration: 300,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                    $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                    $SlideWidth: 200,                                   //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                    //$SlideHeight: 150,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                    $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
+                    $DisplayPieces: 4,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                    $ParkingPosition: 0,                              //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                    $UISearchMode: 0,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+
+                };
+
+
+            var nestedSliders = [];
+        update_global_slides = function (array_ids,single_slide) {
+            nestedSliders = [];
+            
+                $(".slidd_cont").each( function (index, value) {               
+                jssor_sliderh = new $JssorSlider$(value, sliderhOptions);
+
+                nestedSliders.push(jssor_sliderh);
+            });
+
+        start_jssor_slideshow();
+        update_main_slider(single_slide,'');
+        };
+
+var owl_duration = localStorage['owl_duration']||5;
+var update_slideshowTimerOwl = function(time){
+localStorage['owl_duration'] = owl_duration = time;
+stop_owl_slideshow();
+start_owl_slideshow();
+}
+
+var get_timers = function(){
+    return{
+        owl_duration:owl_duration,
+        jssor_multiple_timer:jssor_multiple_timer,
+        jssor_multiple_timer_vertical:jssor_multiple_timer_vertical
+    };
+}
+var $owl;
+var owlSlideshoTimer;
+var start_owl_slideshow = function(){
+    if(typeof owlSlideshoTimer !='undefined') stop_owl_slideshow();
+     owlSlideshoTimer = setInterval(function(){
+         $owl.trigger('next.owl.carousel');
+}, owl_duration*1000)
+};
+var stop_owl_slideshow = function(){
+    clearInterval(owlSlideshoTimer);
+    delete owlSlideshoTimer;
+};
+
+
+var jssorSliderTimer,jssorSliderTimerVertical;
+
+var start_jssor_slideshow = function(){
+    if(typeof jssorSliderTimer !='undefined') stop_jssor_slideshow();
+     jssorSliderTimer = setInterval(function(){
+         nestedSliders.forEach(function(slide){
+             slide.$Next();
+         })
+}, jssor_multiple_timer*1000);
+console.log("start jssor",jssor_multiple_timer_vertical);
+     jssorSliderTimerVertical = setInterval(function(){
+       
+             jssor_slider1_vertical.$Next();
+}, jssor_multiple_timer_vertical*1000);
+
+
+
+};
+var stop_jssor_slideshow = function(){
+    clearInterval(jssorSliderTimer);
+    delete jssorSliderTimer;
+    clearInterval(jssorSliderTimerVertical);
+    delete jssorSliderTimerVertical;
+    
+};
+
+
+
+         window.addEventListener("SlideActive", function(evt){
+             console.log("evt.detail",evt.detail)
+         }, false);
+
+var update_main_slider_one = function(){
+    setTimeout(function(){
+    var elem = $("#owl_one_slide .owl-item:nth-child("+0+") div.camera-view");
+ var evt = new CustomEvent('SlideActive', { 'detail':  elem.attr('camid')+elem.attr('camurl')});
+        window.dispatchEvent(evt);
+    },500)
+     $owl = $('.owl-carousel');
+if( $owl.hasClass('owl-theme')){ //resize event was triggering an error, this if statement is to go around it
+
+             $owl.trigger('destroy.owl.carousel'); //these 3 lines kill the owl, and returns the markup to the initial state
+             $owl.find('.owl-stage-outer').children().unwrap();
+             $owl.removeClass("owl-center owl-loaded owl-text-select-on");
+}
+stop_owl_slideshow();
+start_owl_slideshow();
+ $owl.owlCarousel({
+    items:1,
+    loop:true,
+    margin:10,
+callbacks:true
+        });
+
+$owl.on('changed.owl.carousel',function(e){
+
+   // console.log("changed owl carousel",e.property.value,e.property.name,typeof e.property.value !='undefined'||e.property.name!="position");
+    if(typeof e.property.value =='undefined'||e.property.name!="position")return;
+    
+    var elem = $("#owl_one_slide .owl-item:nth-child("+(e.property.value+1)+") div.camera-view");
+
+  //  console.log("Changed slide to ",elem)
+    if(typeof elem =='undefined')return;
+    //console.log("Changedd",e.property.value,elem,elem.attr('camid'),elem.attr('camurl'))
+       var evt = new CustomEvent('SlideActive', { 'detail':  elem.attr('camid')+elem.attr('camurl')});
+        window.dispatchEvent(evt);
+        })
+
+
+};
+
+var jssor_slider1_vertical;
+        var update_main_slider = function(single_slide,unique_id){
+stop_owl_slideshow();
+            console.log("update_main_slider",$("#slider1_container"))
+       // if(typeof jssor_slider1 !='undefined')
+                //delete jssor_slider1;
+                    var options = {
+                        $AutoPlay: false,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                        $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+                        $AutoPlayInterval: 30000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                        $PauseOnHover: 4,                               //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                        $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                        $SlideDuration: 300,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                        $MinDragOffsetToSlide: 80,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                        //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                        //$SlideHeight: 150,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                        $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
+                        $DisplayPieces: 3,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                        $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                        $UISearchMode: 0,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                        $PlayOrientation: !single_slide?2:1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                        $DragOrientation: !single_slide?2:1,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0),
+
+                    };
+                    if(!single_slide)
+                    options.$SlideHeight = 150;
+
+                    // $("[u=slides]").each(function(index,value){
+                    //     if($(value).find(".image-container").length==0){
+                    //         $(value).remove();
+                    //     }
+                    // })
+                    jssor_slider1_vertical = new $JssorSlider$("slider1_container", options);
+
+                    //responsive code begin
+                    //you can remove responsive code if you don't want the slider scales while window resizes
+                 function ScaleSlider() {
+                        var parentWidth = jssor_slider1_vertical.$Elmt.parentNode.clientWidth;
+                        if (parentWidth) {
+                            var sliderWidth = parentWidth;
+                            //keep the slider width no more than 809
+                            sliderWidth = Math.min(sliderWidth);//, 1253
+                            jssor_slider1_vertical.$SetScaleWidth(sliderWidth);
+                        }
+                        else
+                            window.setTimeout(ScaleSlider, 30);
+                    }
+                       ScaleSlider();
+                            $(window).bind("load", ScaleSlider);
+                            $(window).bind("resize", ScaleSlider);
+                            $(window).bind("orientationchange", ScaleSlider);
+
+
+
+                    //if (navigator.userAgent.match(/(iPhone|iPod|iPad)/)) {
+                    //    $(window).bind("orientationchange", ScaleSlider);
+                    //}
+                    //responsive code end
+        };
+
+
+
+    </script>
+
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+</html>
