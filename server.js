@@ -73,8 +73,8 @@ app.use('/fams/', function(req, res, next) {
                if(config){
                  for(var i=0;i<config.length;i++){
                    if(config[i].view_id==req.params.uid){
-                     console.timeEnd('get_employees_stats');
                      return new sql.Request().query(config[i].query).then(function(recordset) {
+                     console.timeEnd('get_employees_stats');
                          res.status(200).json(recordset);
                      }).catch(function(err) {
                         res.json("Error query",err);
