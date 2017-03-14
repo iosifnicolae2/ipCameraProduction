@@ -68,13 +68,12 @@ app.use('/fams/', function(req, res, next) {
     }, next);
 });
     app.get('/api/get_employees_stats/:uid',function(req,res){
-      var t0 = performance.now();
+      console.time('get_employees_stats');
        sql.connect("mssql://ingress:ingress@192.168.1.51/ReportsAAB").then(function() {
                if(config){
                  for(var i=0;i<config.length;i++){
                    if(config[i].view_id==req.params.uid){
-                     var t1 = performance.now();
-      console.log("Call to doSomething took " + (t1 - t0) + " milliseconds.")
+                     console.timeEnd('get_employees_stats');
                      return new sql.Request().query(config[i].query).then(function(recordset) {
                          res.status(200).json(recordset);
                      }).catch(function(err) {
