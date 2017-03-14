@@ -54,7 +54,6 @@ return credentials && ((credentials.name === 'iosif' && credentials.pass === 'te
       var credentials = auth(req);
       if (checkCredentials(credentials)) {
         config = require('./dist/assets/config-'+credentials.name+'.json');
-        console.log(config[0]);
         next();
       } else {
         res.statusCode = 401
@@ -69,11 +68,12 @@ app.use('/fams/', function(req, res, next) {
     }, next);
 });
     app.get('/api/get_employees_stats/:uid',function(req,res){
+      console.time('get_employees_stats start');
        sql.connect("mssql://ingress:ingress@192.168.1.51/ReportsAAB").then(function() {
                if(config){
                  for(var i=0;i<config.length;i++){
                    if(config[i].view_id==req.params.uid){
-                     console.log("Execute query: ",config[i].query);
+                     console.timeEnd('get_employees_stats end');
                      return new sql.Request().query(config[i].query).then(function(recordset) {
                          res.status(200).json(recordset);
                      }).catch(function(err) {
