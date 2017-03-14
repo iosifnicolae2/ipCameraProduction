@@ -18,7 +18,10 @@ var cors = require('cors');
 app.use(cors());
 app.options('*', cors());
 
-
+var proxy = require('http-proxy').createProxyServer({
+    host: 'http://login.fams.cc',
+    // port: 80
+});
 
 // Where fileName is name of the file and response is Node.js Reponse.
 function responseFile(filePath, response) {
@@ -60,6 +63,11 @@ return credentials && ((credentials.name === 'iosif' && credentials.pass === 'te
       }
     })
 
+app.use('/fams/', function(req, res, next) {
+    proxy.web(req, res, {
+        target: 'http://login.fams.cc'
+    }, next);
+});
     app.get('/api/get_employees_stats/:uid',function(req,res){
        sql.connect("mssql://ingress:ingress@192.168.1.51/ReportsAAB").then(function() {
                if(config){
