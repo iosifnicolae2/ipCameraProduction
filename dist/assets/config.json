@@ -1,0 +1,560 @@
+[
+
+  {
+    "view_type":"grid9",
+    "view_name":"HeadOffice",
+	"cameras":[
+                  {
+                    "id":1,
+                    "url":"ttp://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"ttp://lorempizza.com/1080/1920",
+                    "autoplay":false
+                  },{
+                    "id":2,
+                    "url":"ttp://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"ttp://lorempizza.com/1080/1920",
+                    "autoplay":false
+                  },{
+                    "id":3,
+                    "url":"ttp://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"ttp://lorempizza.com/1080/1920",
+                    "autoplay":false
+                  },{
+                    "id":4,
+                    "url":"ttp://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"ttp://lorempizza.com/1080/1920",
+                    "autoplay":false
+                  },{
+                    "id":5,
+                    "url":"ttp://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"ttp://lorempizza.com/1080/1920",
+                    "autoplay":false
+                  },{
+                    "id":6,
+                    "url":"ttp://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"ttp://lorempizza.com/1080/1920",
+                    "autoplay":false
+                  },{
+                    "id":7,
+                    "url":"ttp://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"ttp://lorempizza.com/1080/1920",
+                    "autoplay":false
+                  },{
+                    "id":7,
+                    "url":"ttp://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"ttp://lorempizza.com/1080/1920",
+                    "autoplay":false
+                  },{
+                    "id":7,
+                    "url":"ttp://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"ttp://lorempizza.com/1080/1920",
+                    "autoplay":false
+                  }
+
+                ]
+	},
+
+  
+  {
+    "view_type":"multiple-slideshow",
+    "view_name":"All Cameras",
+    "slideshows":[
+      {
+	  "view_name":"Deira",
+        "id":3,
+            "cameras":[
+                  {
+                    "id":11,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },{
+                    "id":12,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },{
+                    "id":13,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },{
+                    "id":14,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },{
+                    "id":15,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  }
+				  ,{
+                    "id":16,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  }
+				  ,{
+                    "id":16,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  }
+
+				  ,{
+                    "id":16,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  }
+
+
+                ]
+                
+      },
+      
+	  {
+	  "view_name":"Sharjah",
+        "id":5,
+            "cameras":[
+                  {
+                    "id":21,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },{
+                    "id":22,
+                    "url":"http://AAB005-C002.aabtools.com/axis-cgi/jpg/image.cgi?date=1&clock=1",
+                    "img":"http://AAB005-C002.aabtools.com/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=320x240",
+					"hq_img":"http://AAB005-C002.aabtools.com/axis-cgi/jpg/image.cgi?date=1&clock=1",
+                    "autoplay":true
+                  },{
+                    "id":23,
+                    "url":"http://AAB005-C003.aabtools.com/axis-cgi/jpg/image.cgi?date=1&clock=1",
+                    "img":"http://AAB005-C003.aabtools.com/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=320x240",
+					"hq_img":"http://AAB005-C003.aabtools.com/axis-cgi/jpg/image.cgi?date=1&clock=1",
+                    "autoplay":true
+                  },{
+                    "id":24,
+                    "url":"http://AAB005-C004.aabtools.com/oneshotimage1.jpg",
+                    "img":"http://AAB005-C004.aabtools.com/oneshotimage2.jpg",
+					"hq_img":"http://AAB005-C004.aabtools.com/oneshotimage1.jpg",
+                    "autoplay":true
+                  },{
+                    "id":25,
+                    "url":"http://AAB005-C005.aabtools.com/oneshotimage1",
+                    "img":"http://AAB005-C005.aabtools.com/oneshotimage2",
+					"hq_img":"http://AAB005-C005.aabtools.com/oneshotimage1",
+                    "autoplay":true
+                  }
+
+                ]
+                
+      },
+	  
+	  	  {
+	  "view_name":"Abu Dhhabi",
+        "id":6,
+            "cameras":[
+                  {
+                    "id":31,
+                    "url":"http://AAB006-C001.aabtools.com/oneshotimage1.jpg",
+                    "img":"http://AAB006-C001.aabtools.com/oneshotimage2.jpg",
+					"hq_img":"http://AAB006-C001.aabtools.com/oneshotimage1.jpg",
+                    "autoplay":true
+                  },{
+                    "id":32,
+                    "url":"http://AAB006-C002.aabtools.com/oneshotimage1.jpg",
+                    "img":"http://AAB006-C002.aabtools.com/oneshotimage2.jpg",
+					"hq_img":"http://AAB006-C002.aabtools.com/oneshotimage1.jpg",
+                    "autoplay":true
+                  },{
+                    "id":33,
+                    "url":"http://AAB006-C003.aabtools.com/oneshotimage1.jpg",
+                    "img":"http://AAB006-C003.aabtools.com/oneshotimage2.jpg",
+					"hq_img":"http://AAB006-C003.aabtools.com/oneshotimage1.jpg",
+                    "autoplay":true
+                  },{
+                    "id":34,
+                    "url":"http://AAB006-C004.aabtools.com/axis-cgi/jpg/image.cgi?date=1&clock=1",
+                    "img":"http://AAB006-C004.aabtools.com/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=320x240",
+					"hq_img":"http://AAB006-C004.aabtools.com/axis-cgi/jpg/image.cgi?date=1&clock=1",
+                    "autoplay":true
+                  },{
+                    "id":35,
+                    "url":"http://AAB006-C005.aabtools.com/axis-cgi/jpg/image.cgi?date=1&clock=1",
+                    "img":"http://AAB006-C005.aabtools.com/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=320x240",
+					"hq_img":"http://AAB006-C005.aabtools.com/axis-cgi/jpg/image.cgi?date=1&clock=1",
+                    "autoplay":true
+                  }
+				  ,{
+                    "id":36,
+                    "url":"http://AAB006-C006.aabtools.com/oneshotimage1.jpg",
+                    "img":"http://AAB006-C006.aabtools.com/oneshotimage2.jpg",
+					"hq_img":"http://AAB006-C006.aabtools.com/oneshotimage1.jpg",
+                    "autoplay":true
+                  }
+
+                ]
+                
+      },
+	   	  {
+	  "view_name":"Al Quoz Warehouse",
+        "id":2,
+            "cameras":[
+                  {
+                    "id":41,
+                    "url":"http://AAB002-C001.aabtools.com/cgi-bin/viewer/video.jpg",
+                    "img":"http://AAB002-C001.aabtools.com/cgi-bin/viewer/video.jpg?resolution=320x240",
+					"hq_img":"http://AAB002-C001.aabtools.com/cgi-bin/viewer/video.jpg",
+                    "autoplay":true
+                  },{
+                    "id":42,
+                    "url":"http://AAB002-C002.aabtools.com/cgi-bin/viewer/video.jpg",
+                    "img":"http://AAB002-C002.aabtools.com/cgi-bin/viewer/video.jpg?resolution=320x240",
+					"hq_img":"http://AAB002-C002.aabtools.com/cgi-bin/viewer/video.jpg",
+                    "autoplay":true
+                  },{
+                    "id":43,
+                    "url":"http://AAB002-C003.aabtools.com/oneshotimage1.jpg",
+                    "img":"http://AAB002-C003.aabtools.com/oneshotimage2.jpg",
+					"hq_img":"http://AAB002-C003.aabtools.com/oneshotimage1.jpg",
+                    "autoplay":true
+                  },{
+                    "id":44,
+                    "url":"http://AAB002-C004.aabtools.com/cgi-bin/viewer/video.jpg",
+                    "img":"http://AAB002-C004.aabtools.com/cgi-bin/viewer/video.jpg?resolution=320x240",
+					"hq_img":"http://AAB002-C004.aabtools.com/cgi-bin/viewer/video.jpg",
+                    "autoplay":true
+                  }
+
+                ]
+                
+      },
+	   {
+	  "view_name":"DIP",
+        "id":7,
+            "cameras":[
+                  {
+                    "id":51,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920&resolution=320x240",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },{
+                    "id":52,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920&resolution=320x240",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },{
+                    "id":53,
+                    "url":"http://lorempizza.com/1080/1920 ",
+                    "img":"http://lorempizza.com/1080/1920 ",
+					"hq_img":"http://lorempizza.com/1080/1920 ",
+                    "autoplay":true
+                  },
+				  {
+                    "id":54,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920&resolution=320x240",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },
+				  				  {
+                    "id":55,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  }
+
+                ]                
+      }
+	  
+	  	
+
+    ]
+
+  },
+	{
+		"view_type":"grid3_4",
+		"view_name":"Grid 3*4",
+		"cameras":[
+		              {
+		                "id":1,
+		                "url":"http://AAB001-C002.aabtools.com/cgi-bin/viewer/video.jpg",
+		                "img":"http://lorempizza.com/1080/1920",
+						"hq_img":"http://AAB001-C002.aabtools.com/cgi-bin/viewer/video.jpg",
+		                "autoplay":false
+		              },{
+		                "id":2,
+		                "url":"http://AAB001-C003.aabtools.com/oneshotimage1.jpg",
+		                "img":"http://lorempizza.com/1080/1920",
+						"hq_img":"http://AAB001-C003.aabtools.com/oneshotimage1.jpg",
+		                "autoplay":false
+		              },{
+		                "id":3,
+		                "url":"http://AAB001-C004.aabtools.com/axis-cgi/jpg/image.cgi?date=1&clock=1",
+		                "img":"http://lorempizza.com/1080/1920",
+						"hq_img":"http://AAB001-C004.aabtools.com/axis-cgi/jpg/image.cgi?date=1&clock=1",
+		                "autoplay":false
+		              },{
+		                "id":4,
+						"url":"http://AAB001-C006.aabtools.com/cgi-bin/viewer/video.jpg",
+		                "img":"http://lorempizza.com/1080/1920",
+						"hq_img":"http://AAB001-C006.aabtools.com/cgi-bin/viewer/video.jpg",
+		                "autoplay":false
+		              },{
+		                "id":5,
+		                "url":"http://AAB001-C007.aabtools.com/oneshotimage1",
+		                "img":"http://lorempizza.com/1080/1920",
+						"hq_img":"http://AAB001-C007.aabtools.com/oneshotimage1",
+		                "autoplay":false
+		              },
+					  {
+		                "id":6,
+						"url":"http://AAB001-C008.aabtools.com/cgi-bin/viewer/video.jpg",
+		                "img":"http://AAB001-C008.aabtools.com/cgi-bin/viewer/video.jpg?resolution=320x240",
+						"hq_img":"http://AAB001-C008.aabtools.com/cgi-bin/viewer/video.jpg",
+		                "autoplay":false
+		              },
+					  {
+		                "id":7,
+		                "url":"http://AAB001-C010.aabtools.com/axis-cgi/jpg/image.cgi?date=1&clock=1",
+		                "img":"http://AAB001-C010.aabtools.com/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=320x240",
+						"hq_img":"http://AAB001-C010.aabtools.com/axis-cgi/jpg/image.cgi?date=1&clock=1",
+		                "autoplay":false
+		              }
+
+		            ]
+		},
+
+  {
+    "view_type":"multiple-slideshow",
+    "byLocation":true,
+    "view_name":"All Cameras - owl",
+    "slideshows":[
+      {
+	  "view_name":"Deira",
+        "id":3,
+            "cameras":[
+                  {
+                    "id":121,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },{
+                    "id":1322,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },{
+                    "id":14243,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },{
+                    "id":1244,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },{
+                    "id":23525,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  }
+				  ,{
+                    "id":62636,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },
+{
+                    "id":2361,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920&resolution=320x240",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },{
+                    "id":62362,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },{
+                    "id":32326,
+                    "url":"http://lorempizza.com/1080/1920 ",
+                    "img":"http://lorempizza.com/1080/1920 ",
+					"hq_img":"http://lorempizza.com/1080/1920 ",
+                    "autoplay":true
+                  },
+				  {
+                    "id":42362,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },
+				  				  {
+                    "id":56236126,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },
+{
+                    "id":126236,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  }
+,
+{
+                    "id":123236,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },
+{
+                    "id":236261,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },
+{
+                    "id":1236263,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },
+{
+                    "id":2361,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },
+{
+                    "id":362361,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },
+{
+                    "id":123626,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  },
+{
+                    "id":2362361,
+                    "url":"http://lorempizza.com/1080/1920",
+                    "img":"http://lorempizza.com/1080/1920",
+					"hq_img":"http://lorempizza.com/1080/1920",
+                    "autoplay":true
+                  }
+                ]}
+                ]
+                
+      },
+	{
+		"view_type":"grid3_4 track_car",
+		"view_name":"Car tracking",
+		"cameras":[
+		              {
+		                "id":1,
+                        "name":"Car 1",
+		                "track_car":"http://login.fams.cc/fams/serviceWeb/rest/list?app_id=501876616&app_key=GNjNDaAStiA-bEJ14&access_token=Ac3a360343471cb443D8350000050aDcQWkzYTM2MDM0MzQ3MWNiNDQzRDgzNTAwMDAwNTBhRGM$&vehicle=27850"
+		               },{
+		                "id":1,
+                        "name":"Car 1",
+		                "track_car":"http://login.fams.cc/fams/serviceWeb/rest/list?app_id=501876616&app_key=GNjNDaAStiA-bEJ14&access_token=Ac3a360343471cb443D8350000050aDcQWkzYTM2MDM0MzQ3MWNiNDQzRDgzNTAwMDAwNTBhRGM$&vehicle=38977"
+		               },{
+		                "id":1,
+                        "name":"Car 1",
+		                "track_car":"http://login.fams.cc/fams/serviceWeb/rest/list?app_id=501876616&app_key=GNjNDaAStiA-bEJ14&access_token=Ac3a360343471cb443D8350000050aDcQWkzYTM2MDM0MzQ3MWNiNDQzRDgzNTAwMDAwNTBhRGM$&vehicle=84526"
+		               },{
+		                "id":1,
+                        "name":"Car 1",
+		                "track_car":"http://login.fams.cc/fams/serviceWeb/rest/list?app_id=501876616&app_key=GNjNDaAStiA-bEJ14&access_token=Ac3a360343471cb443D8350000050aDcQWkzYTM2MDM0MzQ3MWNiNDQzRDgzNTAwMDAwNTBhRGM$&vehicle=19397"
+		               },{
+		                "id":1,
+                        "name":"Car 1",
+		                "track_car":"http://login.fams.cc/fams/serviceWeb/rest/list?app_id=501876616&app_key=GNjNDaAStiA-bEJ14&access_token=Ac3a360343471cb443D8350000050aDcQWkzYTM2MDM0MzQ3MWNiNDQzRDgzNTAwMDAwNTBhRGM$&vehicle=73870"
+		               },{
+		                "id":1,
+                        "name":"Car 1",
+		                "track_car":"http://login.fams.cc/fams/serviceWeb/rest/list?app_id=501876616&app_key=GNjNDaAStiA-bEJ14&access_token=Ac3a360343471cb443D8350000050aDcQWkzYTM2MDM0MzQ3MWNiNDQzRDgzNTAwMDAwNTBhRGM$&vehicle=69510"
+		               },{
+		                "id":1,
+                        "name":"Car 1",
+		                "track_car":"http://login.fams.cc/fams/serviceWeb/rest/list?app_id=501876616&app_key=GNjNDaAStiA-bEJ14&access_token=Ac3a360343471cb443D8350000050aDcQWkzYTM2MDM0MzQ3MWNiNDQzRDgzNTAwMDAwNTBhRGM$&vehicle=95442"
+		               },{
+		                "id":1,
+                        "name":"Car 1",
+		                "track_car":"http://login.fams.cc/fams/serviceWeb/rest/list?app_id=501876616&app_key=GNjNDaAStiA-bEJ14&access_token=Ac3a360343471cb443D8350000050aDcQWkzYTM2MDM0MzQ3MWNiNDQzRDgzNTAwMDAwNTBhRGM$&vehicle=99795"
+		               },{
+		                "id":1,
+                        "name":"Car 1",
+		                "track_car":"http://login.fams.cc/fams/serviceWeb/rest/list?app_id=501876616&app_key=GNjNDaAStiA-bEJ14&access_token=Ac3a360343471cb443D8350000050aDcQWkzYTM2MDM0MzQ3MWNiNDQzRDgzNTAwMDAwNTBhRGM$&vehicle=17332"
+		               },{
+		                "id":1,
+                        "name":"Car 1",
+		                "track_car":"http://login.fams.cc/fams/serviceWeb/rest/list?app_id=501876616&app_key=GNjNDaAStiA-bEJ14&access_token=Ac3a360343471cb443D8350000050aDcQWkzYTM2MDM0MzQ3MWNiNDQzRDgzNTAwMDAwNTBhRGM$&vehicle=53975"
+		               },{
+		                "id":1,
+                        "name":"Car 1",
+		                "track_car":"http://login.fams.cc/fams/serviceWeb/rest/list?app_id=501876616&app_key=GNjNDaAStiA-bEJ14&access_token=Ac3a360343471cb443D8350000050aDcQWkzYTM2MDM0MzQ3MWNiNDQzRDgzNTAwMDAwNTBhRGM$&vehicle=17290"
+		               },{
+		                "id":1,
+                        "name":"Car 1",
+		                "track_car":"http://login.fams.cc/fams/serviceWeb/rest/list?app_id=501876616&app_key=GNjNDaAStiA-bEJ14&access_token=Ac3a360343471cb443D8350000050aDcQWkzYTM2MDM0MzQ3MWNiNDQzRDgzNTAwMDAwNTBhRGM$&vehicle=48255"
+		               }
+                  
+
+		            ]
+		},
+    {
+        "view_id":"employee-stats0",
+        "view_type":"employee-stats",
+        "view_name":"Employee Stats",
+        "query":"SET DATEFIRST 6; Select P.yr, P.WK, L.SerialNo, N.Name, J.Department, L.FullName, CONVERT(varchar, P.Saturday, 108) as Saturday, CONVERT(varchar, P.Sunday, 108) as Sunday, CONVERT(varchar, P.Monday, 108) as Monday, CONVERT(varchar, P.Tuesday, 108) as Tuesday, CONVERT(varchar, P.Wednesday, 108) as Wednesday, CONVERT(varchar, P.Thursday, 108) as Thursday, CONVERT(varchar, P.Friday, 108) as Friday From People L Left Join JobDescription J on J.SerialNo = L.JobId Inner JOin CostCenter C on C.SerialNo = L.ccid Inner Join (Select * From Location where GroupID in (1,2,3)) N on N.SerialNo = C.Locationid Left Join ( Select D.UserId, checktime, Datename(dw, checktime) as dn,  Datename(WK, checktime) as Wk, YEAR(CheckTime) as Yr from  Server3centos...auditdata D Left Join Server3centos...[user] U on U.Userid = D.UserID Left Join Server3centos...[user_group] G on G.id = U.User_Group where Datename(WK, checktime) = Datename(WK, getdate()) and D.userid > 0 ) PivotTable Pivot ( MIn(checktime) FOR [dn] in ([Saturday],[Sunday],[Monday],[Tuesday],[Wednesday],[Thursday],[Friday]) ) AS P on P.UserID = L.SerialNo Where L.VisaType = 'employee' and L.active = 1 and P.UserID is not null Order by N.GroupID, N.Name, J.Department, L.FullName",
+        "stats":{
+         "stats_date":"12.02.2017",
+            "employees":[{"yr":2017,"WK":"10","SerialNo":334,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Abdulnaseer Akmad Kalanduyan","Saturday":"07:29:48","Sunday":"07:25:53","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":182,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Anis Mujaffar Ujjainwala","Saturday":"07:29:54","Sunday":"07:33:32","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":291,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Chinnathambi Periyasamy Periyasamy","Saturday":"07:20:49","Sunday":"07:18:39","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":263,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Dhanavel Viswanathan Viswanathan","Saturday":null,"Sunday":"09:42:46","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":71,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Dinesh Dhanavel Ganesan","Saturday":"07:31:37","Sunday":"07:35:11","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":179,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Dineshkumar Selvarasu Selvarasu","Saturday":"18:09:11","Sunday":null,"Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":362,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Elayaraja Kannan","Saturday":"07:30:43","Sunday":"07:34:13","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":178,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Jaisankar Chidambaram Chidambaram","Saturday":"07:30:14","Sunday":"07:34:08","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":323,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Jayaprakash Pachaimuthu","Saturday":"07:30:26","Sunday":"07:35:04","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":437,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Kalaiselvan Arivazhagan","Saturday":"07:30:01","Sunday":"07:47:39","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":338,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Karthick Ceeralan","Saturday":"07:37:43","Sunday":null,"Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":312,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Khurram Shahzad Muhammad","Saturday":"07:29:57","Sunday":"07:33:52","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":34,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Kotdawala Hatim Fakruddin","Saturday":"07:29:42","Sunday":"07:33:48","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":244,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Muhammad Basharat Anjum","Saturday":"07:29:33","Sunday":"07:33:22","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":411,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Neppolian Thambidurai","Saturday":null,"Sunday":"07:34:49","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":25,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Pandidurai Alagukannan","Saturday":"07:09:37","Sunday":"07:21:58","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":261,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Prabakaran Mani Mani","Saturday":"07:40:23","Sunday":"07:40:13","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":403,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Raja Pachamuthu","Saturday":"07:24:47","Sunday":"07:30:11","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":435,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Rajkumar Govindharaj","Saturday":"07:30:20","Sunday":"07:34:28","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":287,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Sambath Sanniyasi Sanniyasi","Saturday":"07:29:37","Sunday":"07:33:37","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":369,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Samidurai Sevangi","Saturday":"07:30:34","Sunday":"07:34:22","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":174,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Sarfraz Abdul Karim","Saturday":"11:45:07","Sunday":"09:45:48","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":180,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Sathiskumar Paritasamy","Saturday":"07:32:40","Sunday":null,"Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":212,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Shahjahan Idris Ali Maji","Saturday":"07:47:43","Sunday":"07:33:29","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":286,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Subramaniyan Shankar Shankar","Saturday":"07:29:45","Sunday":"07:33:26","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":262,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Suresh Babu Jothi Jothi","Saturday":"17:01:26","Sunday":"07:34:32","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":283,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Thangarasu Appadurai","Saturday":"07:30:07","Sunday":"07:33:57","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":52,"Name":"Al Quoz Warehouse","Department":"Operations","FullName":"Vimod Mohanan Moothedathu","Saturday":"10:55:29","Sunday":"07:08:46","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":396,"Name":"Baniyas Square","Department":"Accounts","FullName":"Asgar Elyas Hardwarewala","Saturday":"08:30:50","Sunday":"08:31:19","Monday":"08:36:16","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":275,"Name":"Baniyas Square","Department":"Accounts","FullName":"Shahbaz Ahmad Umer Daraz","Saturday":null,"Sunday":"08:31:08","Monday":"08:26:02","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":308,"Name":"Baniyas Square","Department":"Operations","FullName":"Mahendra Singh Chouhan","Saturday":"08:30:55","Sunday":"08:43:13","Monday":"08:34:22","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":75,"Name":"Baniyas Square","Department":"Operations","FullName":"Palanivel Periyasamy","Saturday":"08:31:03","Sunday":"08:31:29","Monday":"08:22:34","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":31,"Name":"Baniyas Square","Department":"Sales","FullName":"Badruddin Hotelwala Hakimuddin","Saturday":"09:22:19","Sunday":"08:54:34","Monday":"08:53:31","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":7,"Name":"Baniyas Square","Department":"Sales","FullName":"Hamza Abdul Kadir","Saturday":"08:30:38","Sunday":"09:46:54","Monday":"08:33:43","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":66,"Name":"Baniyas Square","Department":"Sales","FullName":"Hussain Zainuddin Kaka","Saturday":"08:43:38","Sunday":"08:35:20","Monday":"09:28:02","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":32,"Name":"Baniyas Square","Department":"Sales","FullName":"Huzefa Juzerbhai Kapadia","Saturday":"08:36:31","Sunday":"08:31:13","Monday":"08:37:56","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":321,"Name":"Baniyas Square","Department":"Sales","FullName":"Marilyn Valencia Castro","Saturday":null,"Sunday":"08:39:45","Monday":"08:43:58","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":315,"Name":"Baniyas Square","Department":"Sales","FullName":"Moiz Asgher Ali","Saturday":"08:30:32","Sunday":"08:31:24","Monday":"08:22:20","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":59,"Name":"Baniyas Square","Department":"Sales","FullName":"Mustafa Shabbir Dhanerawala","Saturday":null,"Sunday":"09:33:39","Monday":"08:28:35","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":58,"Name":"Baniyas Square","Department":"Sales","FullName":"Shabbir Hussain Hussaini Bhai","Saturday":null,"Sunday":"09:32:22","Monday":"09:34:29","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":335,"Name":"HeadOffice","Department":"Accounts","FullName":"Arun George","Saturday":"17:57:11","Sunday":"08:31:56","Monday":"08:29:26","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":74,"Name":"HeadOffice","Department":"Accounts","FullName":"Maribel Santos Tolentino","Saturday":"08:58:17","Sunday":"08:35:22","Monday":"08:30:21","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":336,"Name":"HeadOffice","Department":"Accounts","FullName":"Mohammed Farooque Sheikh","Saturday":null,"Sunday":"08:31:53","Monday":"08:29:23","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":73,"Name":"HeadOffice","Department":"Accounts","FullName":"Murtuza Mithaiwala Shamskhan","Saturday":"08:46:57","Sunday":"08:31:39","Monday":"09:42:22","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":56,"Name":"HeadOffice","Department":"Accounts","FullName":"Rakesh Balachandran Nair","Saturday":null,"Sunday":"08:31:50","Monday":"08:29:20","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":245,"Name":"HeadOffice","Department":"Admin","FullName":"Lorenza Salva Soquiap","Saturday":null,"Sunday":"08:35:21","Monday":"08:30:20","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":40,"Name":"HeadOffice","Department":"Admin","FullName":"Syed Mujeeb Syed Haheed","Saturday":null,"Sunday":"09:10:40","Monday":"08:42:56","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":339,"Name":"HeadOffice","Department":"Operations","FullName":"Arunkumar Ramachandhiran","Saturday":"08:31:59","Sunday":"09:31:25","Monday":"08:32:26","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":226,"Name":"HeadOffice","Department":"Operations","FullName":"Gopalakrishnan Periyasamy Periyasamy","Saturday":"08:29:02","Sunday":"09:06:20","Monday":"08:44:37","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":13,"Name":"HeadOffice","Department":"Purchase","FullName":"Huseni Taherali Bhanpurawala","Saturday":null,"Sunday":"08:31:04","Monday":"08:28:50","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":447,"Name":"HeadOffice","Department":"Purchase","FullName":"Juzer Asger Ali Jamali","Saturday":"08:26:57","Sunday":"08:31:42","Monday":"08:29:15","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":288,"Name":"HeadOffice","Department":"Purchase","FullName":"Lorie Sendon Villanueva","Saturday":null,"Sunday":"18:01:54","Monday":"08:29:00","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":191,"Name":"HeadOffice","Department":"Purchase","FullName":"Mary Anne Zoleta","Saturday":null,"Sunday":"08:31:31","Monday":"08:29:12","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":19,"Name":"HeadOffice","Department":"Purchase","FullName":"Sadikali Ahmedali Gohil","Saturday":null,"Sunday":"08:32:12","Monday":"08:30:02","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":259,"Name":"HeadOffice","Department":"Sales","FullName":"Ali Asgaar Abbasbhai Rampurwala","Saturday":null,"Sunday":"08:32:06","Monday":"08:29:56","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":38,"Name":"HeadOffice","Department":"Sales","FullName":"Ali Asger Sunelwala","Saturday":null,"Sunday":"10:11:24","Monday":"11:22:20","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":319,"Name":"HeadOffice","Department":"Sales","FullName":"Ana Joy Cabrera Dungca","Saturday":"08:29:09","Sunday":"08:31:27","Monday":"08:29:07","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":70,"Name":"HeadOffice","Department":"Sales","FullName":"Gopakumar Raveendranadhan","Saturday":"08:50:03","Sunday":"09:00:54","Monday":"09:07:46","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":54,"Name":"HeadOffice","Department":"Sales","FullName":"Husein Abdul Kader Bhanpurawala","Saturday":"09:50:43","Sunday":"09:00:29","Monday":"08:59:13","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":448,"Name":"HeadOffice","Department":"Sales","FullName":"Kristina Perez Ani","Saturday":"08:32:21","Sunday":"08:32:48","Monday":"08:29:32","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":272,"Name":"HeadOffice","Department":"Sales","FullName":"Maria Ghislaine Manila","Saturday":"08:29:06","Sunday":"08:31:25","Monday":"08:29:04","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":322,"Name":"HeadOffice","Department":"Sales","FullName":"Mary Ann Alay","Saturday":null,"Sunday":"08:31:20","Monday":"08:30:27","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":63,"Name":"HeadOffice","Department":"Sales","FullName":"Melanie Castillo Sillano","Saturday":null,"Sunday":"08:36:07","Monday":"08:28:58","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":12,"Name":"HeadOffice","Department":"Sales","FullName":"Moiz Gullam Hussain","Saturday":"10:22:53","Sunday":"12:10:15","Monday":"08:59:05","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":332,"Name":"HeadOffice","Department":"Sales","FullName":"Talal Youns Mohammad","Saturday":"08:32:01","Sunday":"09:31:24","Monday":"08:32:29","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":3,"Name":"Mussafah","Department":"Accounts","FullName":"Mustafa Fidahussain Topiwala","Saturday":null,"Sunday":"08:35:04","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":36,"Name":"Mussafah","Department":"Operations","FullName":"Shahzad Abbas Muhammad Khan","Saturday":null,"Sunday":"08:00:00","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":344,"Name":"Mussafah","Department":"Operations","FullName":"Wasif Khurshid","Saturday":null,"Sunday":"08:35:21","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":327,"Name":"Mussafah","Department":"Sales","FullName":"Farhad Rehaman","Saturday":null,"Sunday":"08:35:15","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":83,"Name":"Mussafah","Department":"Sales","FullName":"Husain Mohammed Ali","Saturday":null,"Sunday":"08:36:42","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":60,"Name":"Sharjah","Department":"Accounts","FullName":"Mohammed Huseni Bhanpurawala","Saturday":"08:33:21","Sunday":"08:29:19","Monday":"08:31:21","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":269,"Name":"Sharjah","Department":"Sales","FullName":"Elayaraja Elamparithi Elamparithi","Saturday":null,"Sunday":"08:34:33","Monday":"08:33:25","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":290,"Name":"Sharjah","Department":"Sales","FullName":"Hatim Abid Ali","Saturday":"08:28:38","Sunday":"08:37:32","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":10,"Name":"Sharjah","Department":"Sales","FullName":"Husain Ali Abbas Ali","Saturday":null,"Sunday":"08:22:26","Monday":"08:37:02","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":314,"Name":"Sharjah","Department":"Sales","FullName":"Jenna Alejandrino","Saturday":null,"Sunday":"08:33:48","Monday":"08:48:38","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":78,"Name":"Sharjah","Department":"Sales","FullName":"Mufaddal Hussain Sadiq","Saturday":null,"Sunday":"08:15:02","Monday":"08:15:29","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":311,"Name":"Lokhandwala Builders","Department":"Accounts","FullName":"Fatema Mohammed Ghasletwala","Saturday":"10:05:24","Sunday":"08:31:34","Monday":"08:57:39","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":206,"Name":"Lokhandwala Builders","Department":"Admin","FullName":"Febi Bose A K Subash ","Saturday":null,"Sunday":"09:10:29","Monday":"10:14:49","Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null},{"yr":2017,"WK":"10","SerialNo":143,"Name":"Lokhandwala Builders","Department":"Admin","FullName":"Shamsudeen Azhuvalappil ","Saturday":null,"Sunday":"09:13:11","Monday":null,"Tuesday":null,"Wednesday":null,"Thursday":null,"Friday":null}]
+        }
+    }
+ ]
