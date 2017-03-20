@@ -46,14 +46,20 @@ function responseFile(filePath, response) {
 	server.listen(6147);
 console.log("Server listen on: http://localhost:6147");
 checkCredentials = function(credentials){
-return credentials && ((credentials.name === 'iosif' && credentials.pass === 'test123')||
-      (credentials.name === 'taher' && credentials.pass === 'test123'));
+  var config_users = require('./config_users.json');
+  if(!credentials) return false;
+
+  for(let i=0;i<config_users.length;i++){
+    if(credentials.name === config_users[i].username && credentials.pass === config_users[i].password)
+    return config_users[i];
+  }
 }
 
     app.get('/',function(req,res,next){
       var credentials = auth(req);
-      if (checkCredentials(credentials)) {
-        config = require('./dist/assets/config-'+credentials.name+'.json');
+      var user = checkCredentials(credentials)
+      if (user) {
+        config = require(user.config);
         next();
       } else {
         res.statusCode = 401
