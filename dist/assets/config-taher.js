@@ -1,4 +1,4 @@
-[
+module.exports = [
 
  {
     "view_type":"grid3_4",
@@ -738,7 +738,14 @@
         "view_id":"employee-stats0",
         "view_type":"employee-stats",
         "view_name":"Employee Stats",
-        "query":"SET DATEFIRST 6; Select P.yr, P.WK, L.SerialNo, N.Name, J.Department, L.FullName, CONVERT(varchar, P.Saturday, 108) as Saturday, CONVERT(varchar, P.Sunday, 108) as Sunday, CONVERT(varchar, P.Monday, 108) as Monday, CONVERT(varchar, P.Tuesday, 108) as Tuesday, CONVERT(varchar, P.Wednesday, 108) as Wednesday, CONVERT(varchar, P.Thursday, 108) as Thursday, CONVERT(varchar, P.Friday, 108) as Friday From People L Left Join JobDescription J on J.SerialNo = L.JobId Inner JOin CostCenter C on C.SerialNo = L.ccid Inner Join (Select * From Location where GroupID in (1,2,3)) N on N.SerialNo = C.Locationid Left Join ( Select D.UserId, checktime, Datename(dw, checktime) as dn,  Datename(WK, checktime) as Wk, YEAR(CheckTime) as Yr from  Server3centos...auditdata D Left Join Server3centos...[user] U on U.Userid = D.UserID Left Join Server3centos...[user_group] G on G.id = U.User_Group where Datename(WK, checktime) = Datename(WK, getdate()) and D.userid > 0 ) PivotTable Pivot ( MIn(checktime) FOR [dn] in ([Saturday],[Sunday],[Monday],[Tuesday],[Wednesday],[Thursday],[Friday]) ) AS P on P.UserID = L.SerialNo Where L.VisaType = 'employee' and L.active = 1 and P.UserID is not null Order by N.GroupID, N.Name, J.Department, L.FullName",
+        // "query":"SET DATEFIRST 6; Select P.yr, P.WK, L.SerialNo, N.Name, J.Department, L.FullName, CONVERT(varchar, P.Saturday, 108) as Saturday, CONVERT(varchar, P.Sunday, 108) as Sunday, CONVERT(varchar, P.Monday, 108) as Monday, CONVERT(varchar, P.Tuesday, 108) as Tuesday, CONVERT(varchar, P.Wednesday, 108) as Wednesday, CONVERT(varchar, P.Thursday, 108) as Thursday, CONVERT(varchar, P.Friday, 108) as Friday From People L Left Join JobDescription J on J.SerialNo = L.JobId Inner JOin CostCenter C on C.SerialNo = L.ccid Inner Join (Select * From Location where GroupID in (1,2,3)) N on N.SerialNo = C.Locationid Left Join ( Select D.UserId, checktime, Datename(dw, checktime) as dn,  Datename(WK, checktime) as Wk, YEAR(CheckTime) as Yr from  Server3centos...auditdata D Left Join Server3centos...[user] U on U.Userid = D.UserID Left Join Server3centos...[user_group] G on G.id = U.User_Group where Datename(WK, checktime) = Datename(WK, getdate()) and D.userid > 0 ) PivotTable Pivot ( MIn(checktime) FOR [dn] in ([Saturday],[Sunday],[Monday],[Tuesday],[Wednesday],[Thursday],[Friday]) ) AS P on P.UserID = L.SerialNo Where L.VisaType = 'employee' and L.active = 1 and P.UserID is not null Order by N.GroupID, N.Name, J.Department, L.FullName",
+        "query":function(year,week){
+            return `  Declare @Year int = `+year+`
+  Declare @Week int = `+week+`
+  
+  SET DATEFIRST 6; Select  @Year as yr, @Week as wk, L.SerialNo, N.Name, J.Department, L.FullName, CONVERT(varchar, P.Saturday, 108) as Saturday, CONVERT(varchar, P.Sunday, 108) as Sunday, CONVERT(varchar, P.Monday, 108) as Monday, CONVERT(varchar, P.Tuesday, 108) as Tuesday, CONVERT(varchar, P.Wednesday, 108) as Wednesday, CONVERT(varchar, P.Thursday, 108) as Thursday, CONVERT(varchar, P.Friday, 108) as Friday From People L Left Join JobDescription J on J.SerialNo = L.JobId Inner JOin CostCenter C on C.SerialNo = L.ccid Inner Join (Select * From Location where GroupID in (1,2,3)) N on N.SerialNo = C.Locationid Left Join ( Select D.UserId, checktime, Datename(dw, checktime) as dn,  Datename(WK, checktime) as Wk, YEAR(CheckTime) as Yr from  Server3centos...auditdata D Left Join Server3centos...[user] U on U.Userid = D.UserID Left Join Server3centos...[user_group] G on G.id = U.User_Group where Datename(WK, checktime) = @Week and Year(checktime) = @Year and D.userid > 0 ) PivotTable Pivot ( MIn(checktime) FOR [dn] in ([Saturday],[Sunday],[Monday],[Tuesday],[Wednesday],[Thursday],[Friday]) ) AS P on P.UserID = L.SerialNo Where L.VisaType = 'employee' and L.active = 1  Order by N.GroupID, N.Name, J.Department, L.FullName
+   `
+        },
         "stats":{
          "stats_date":"12.02.2017",
             "employees":[

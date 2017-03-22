@@ -2,11 +2,11 @@
     {
         "username": "iosif",
         "password": "test123",
-        "config":"./dist/assets/config-iosif.json"//please put your configuration in /dist/assets AND in ./src/assets
+        "config":"./src/assets/config-iosif.js"
     },
     {
         "username": "taher",
         "password": "test123",
-        "config":"./dist/assets/config-taher.json"//please put your configuration in /dist/assets AND in ./src/assets
+        "config":"./src/assets/config-taher.js"
     }
 ]

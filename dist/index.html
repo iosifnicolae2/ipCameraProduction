@@ -11,6 +11,7 @@
 
 <link rel="prefetch" href="assets/css/owl.carousel.min.css">
 <link rel="prefetch" href="assets/css/owl.theme.default.min.css">
+<link rel="prefetch" href="assets/css/bootstrap-datetimepicker.css">
 
 
 <link rel="prefetch" href="assets/js/jquery-1.9.1.min.js">
@@ -19,13 +20,14 @@
 <link rel="prefetch" href="assets/js/jssor.slider.js">
 <link rel="prefetch" href="assets/js/owl.carousel.js">
 
+
+
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAvMicSOrkKNDhgevlz43ShWYD-9BEfwM"></script>
-<link href="styles.d41d8cd98f00b204e980.bundle.css" rel="stylesheet"/></head>
+</head>
 
 <body class="menu_opened">
-
   <app-root class="full">Loading...</app-root>
-<script type="text/javascript" src="inline.6eb43db4f0a322f328d9.bundle.js"></script><script type="text/javascript" src="vendor.3838b9396bc1ea10bc5d.bundle.js"></script><script type="text/javascript" src="main.4e7d0513637e13194cc2.bundle.js"></script></body>
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
 
 
 
@@ -165,6 +167,13 @@ app-multiple-slideshow a.open_hq_img{
 body.menu_opened .setImageUpdate,body.menu_opened .slideshow-menu-timer{
     display:block;
 }
+body.menu_opened .summary_commands{
+    display:block;
+}
+.bootstrap-datetimepicker-widget .datepicker-days table tbody tr:hover {
+    background-color: #eee;
+}
+
         </style>
 
 <script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
@@ -172,6 +181,9 @@ body.menu_opened .setImageUpdate,body.menu_opened .slideshow-menu-timer{
     <script type="text/javascript" src="assets/js/jssor.utils.js"></script>
     <script type="text/javascript" src="assets/js/jssor.slider.js"></script>
     <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/moment.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-datetimepicker.min.js"></script>
    <script>
 
    (function($){
@@ -398,9 +410,11 @@ stop_owl_slideshow();
         };
 
 
-
+  
     </script>
 
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.css">
 </html>
