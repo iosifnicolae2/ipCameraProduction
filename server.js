@@ -73,7 +73,7 @@ app.get('/', function (req, res, next) {
     res.end('Access denied')
   }
 })
-var dev = true;
+var dev = false;
 
 //only for development
 if(dev)
