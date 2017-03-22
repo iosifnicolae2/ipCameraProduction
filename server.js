@@ -73,6 +73,11 @@ app.use('/fams/', function(req, res, next) {
         target: 'http://login.fams.cc'
     }, next);
 });
+
+app.get('/signout',function(req,res){
+   res.set('WWW-Authenticate', 'Basic realm=Authorization Required');
+    return res.sendStatus(401);
+})
     app.get('/api/get_employees_stats/:uid',function(req,res){
       console.time('get_employees_stats');
        sql.connect("mssql://ingress:ingress@192.168.1.51/ReportsAAB").then(function() {
