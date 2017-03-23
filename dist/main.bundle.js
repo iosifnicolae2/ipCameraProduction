@@ -429,6 +429,8 @@ var EmployeeStatsComponent = (function () {
         this.years = [];
         this.weeks = [];
         this.months = [];
+        this.startWeek = -1;
+        this.endWeek = -1;
         this.date_module = __webpack_require__(644);
     }
     EmployeeStatsComponent.prototype.groupBy = function (newValue) {
@@ -535,8 +537,10 @@ var EmployeeStatsComponent = (function () {
                 t.year = response.year;
             if (t.week < 0)
                 t.week = response.week;
-            t.startWeek = response.startWeek;
-            t.endWeek = response.endWeek;
+            if (t.startWeek < 0)
+                t.startWeek = response.startWeek;
+            if (t.endWeek < 0)
+                t.endWeek = response.endWeek;
             //console.log(t.stats.employees);
             //console.log("Grouping by ",t.groupByVal);
             var gg = __WEBPACK_IMPORTED_MODULE_3_underscore__["groupBy"](t.stats.employees, function (d) { return d[t.groupByVal]; });
