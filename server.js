@@ -73,7 +73,7 @@ app.get('/', function (req, res, next) {
     res.end('Access denied')
   }
 })
-var dev = true;
+var dev = false;
 
 //only for development
 if(dev)
@@ -90,8 +90,8 @@ app.use('/fams/', function (req, res, next) {
 });
 
 app.get('/signout', function (req, res) {
-  res.set('WWW-Authenticate', 'Basic realm=Authorization Required');
-  return res.sendStatus(401);
+  //res.set('WWW-Authenticate', 'Basic realm=Authorization Required');
+  return res.status(401).redirect('/');
 })
 
 
@@ -158,7 +158,7 @@ app.get('/api/get_employees_stats/:uid', function (req, res) {
     week = today.getWeek();
   }
 
-  console.log("Year and week: ",year,week);
+ // console.log("Year and week: ",year,week);
   if(dev){
     var recordset = require('./sample-datadb.js');
     
@@ -168,16 +168,19 @@ app.get('/api/get_employees_stats/:uid', function (req, res) {
             // recordset['year'] = year;
     return res.status(200).json(recordset);
   }
+//console.log("config[i].query(year, week)",config[5].query(year, week));
+//console.log(config)
   sql.connect("mssql://ingress:ingress@192.168.1.51/ReportsAAB").then(function () {
     if (config) {
       for (var i = 0; i < config.length; i++) {
         if (config[i].view_id == req.params.uid) {
+
           return new sql.Request().query(config[i].query(year, week)).then(function (recordset) {
             console.timeEnd('get_employees_stats');
-            recordset['startWeek'] = today.getStartFromISOWeek();
+            /*recordset['startWeek'] = today.getStartFromISOWeek();
             recordset['endWeek'] = today.getEndFromISOWeek();
             recordset['week'] = week;
-            recordset['year'] = year;
+            recordset['year'] = year;*/
 
             res.status(200).json(recordset);
           }).catch(function (err) {
