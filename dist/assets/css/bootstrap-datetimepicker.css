@@ -172,3 +172,3295 @@
     font-size: 1.2em;
     margin: 0px;
 }
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        z-index: 1000;
+        display: none;
+        float: left;
+        min-width: 160px;
+        padding: 5px 0px;
+        margin: 2px 0px 0px;
+        font-size: 14px;
+        text-align: left;
+        list-style: none;
+        background-color: rgb(255, 255, 255);
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, 0.14902);
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.172549) 0px 6px 12px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    ul,
+    ol {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+}
+@media screen {
+    .list-unstyled {
+        padding-left: 0px;
+        list-style: none;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .collapse {
+        display: none;
+        visibility: hidden;
+    }
+}
+@media screen {
+    .collapse.in {
+        display: block;
+        visibility: visible;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    table {
+        border-spacing: 0px;
+        border-collapse: collapse;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    table {
+        background-color: transparent;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    .glyphicon {
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: "Glyphicons Halflings";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    .glyphicon {
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: "Glyphicons Halflings";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    table {
+        border-spacing: 0px;
+        border-collapse: collapse;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    table {
+        background-color: transparent;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    .glyphicon {
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: "Glyphicons Halflings";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    .glyphicon {
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: "Glyphicons Halflings";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    table {
+        border-spacing: 0px;
+        border-collapse: collapse;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    table {
+        background-color: transparent;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    .glyphicon {
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: "Glyphicons Halflings";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    .glyphicon {
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: "Glyphicons Halflings";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    table {
+        border-spacing: 0px;
+        border-collapse: collapse;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    table {
+        background-color: transparent;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    .glyphicon {
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: "Glyphicons Halflings";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    th {
+        text-align: left;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    .glyphicon {
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: "Glyphicons Halflings";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    table {
+        border-spacing: 0px;
+        border-collapse: collapse;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    table {
+        background-color: transparent;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    a {
+        background-color: transparent;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    a {
+        color: rgb(51, 122, 183);
+        text-decoration: none;
+    }
+}
+@media screen {
+    .glyphicon {
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: "Glyphicons Halflings";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .collapse {
+        display: none;
+        visibility: hidden;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    table {
+        border-spacing: 0px;
+        border-collapse: collapse;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    table {
+        background-color: transparent;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    a {
+        background-color: transparent;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    a {
+        color: rgb(51, 122, 183);
+        text-decoration: none;
+    }
+}
+@media screen {
+    .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+}
+@media screen {
+    .glyphicon {
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: "Glyphicons Halflings";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    a {
+        background-color: transparent;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    a {
+        color: rgb(51, 122, 183);
+        text-decoration: none;
+    }
+}
+@media screen {
+    .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+}
+@media screen {
+    .glyphicon {
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: "Glyphicons Halflings";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+        margin: 0px;
+        font-style: inherit;
+        font-variant: inherit;
+        font-weight: inherit;
+        font-stretch: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        font-family: inherit;
+        color: inherit;
+    }
+}
+@media screen {
+    button {
+        overflow: visible;
+    }
+}
+@media screen {
+    button,
+    select {
+        text-transform: none;
+    }
+}
+@media screen {
+    button,
+    html input[type="button"],
+    input[type="reset"],
+    input[type="submit"] {
+        -webkit-appearance: button;
+        cursor: pointer;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    input,
+    button,
+    select,
+    textarea {
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+}
+@media screen {
+    .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+}
+@media screen {
+    .btn-primary {
+        color: rgb(255, 255, 255);
+        background-color: rgb(51, 122, 183);
+        border-color: rgb(46, 109, 164);
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    a {
+        background-color: transparent;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    a {
+        color: rgb(51, 122, 183);
+        text-decoration: none;
+    }
+}
+@media screen {
+    .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+}
+@media screen {
+    .glyphicon {
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: "Glyphicons Halflings";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    a {
+        background-color: transparent;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    a {
+        color: rgb(51, 122, 183);
+        text-decoration: none;
+    }
+}
+@media screen {
+    .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+}
+@media screen {
+    .glyphicon {
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: "Glyphicons Halflings";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    table {
+        border-spacing: 0px;
+        border-collapse: collapse;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    table {
+        background-color: transparent;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    table {
+        border-spacing: 0px;
+        border-collapse: collapse;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    table {
+        background-color: transparent;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
+@media screen {
+    td,
+    th {
+        padding: 0px;
+    }
+}
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+}
+@media screen {
+    .table-condensed > thead > tr > th,
+    .table-condensed > tbody > tr > th,
+    .table-condensed > tfoot > tr > th,
+    .table-condensed > thead > tr > td,
+    .table-condensed > tbody > tr > td,
+    .table-condensed > tfoot > tr > td {
+        padding: 5px;
+    }
+}
