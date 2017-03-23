@@ -529,13 +529,14 @@ var EmployeeStatsComponent = (function () {
         //         console.log(t.groups);
         t.http.get("/api/get_employees_stats/" + t.viewId + "?year=" + t.year + "&week=" + t.week)
             .map(function (res) {
-            t.stats.employees = res.json();
+            var response = res.json();
+            t.stats.employees = response.employees;
             if (t.year < 0)
-                t.year = t.stats.employees.year;
+                t.year = response.year;
             if (t.week < 0)
-                t.week = t.stats.employees.week;
-            t.startWeek = t.stats.employees.startWeek;
-            t.endWeek = t.stats.employees.endWeek;
+                t.week = response.week;
+            t.startWeek = response.startWeek;
+            t.endWeek = response.endWeek;
             //console.log(t.stats.employees);
             //console.log("Grouping by ",t.groupByVal);
             var gg = __WEBPACK_IMPORTED_MODULE_3_underscore__["groupBy"](t.stats.employees, function (d) { return d[t.groupByVal]; });

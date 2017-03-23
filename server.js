@@ -73,7 +73,7 @@ app.get('/', function (req, res, next) {
     res.end('Access denied')
   }
 })
-var dev = false;
+var dev = true;
 
 //only for development
 if(dev)
@@ -162,10 +162,10 @@ app.get('/api/get_employees_stats/:uid', function (req, res) {
   if(dev){
     var recordset = require('./sample-datadb.js');
     
-            // recordset['startWeek'] = today.getStartFromISOWeek();
-            // recordset['endWeek'] = today.getEndFromISOWeek();
-            // recordset['week'] = week;
-            // recordset['year'] = year;
+             recordset['startWeek'] = today.getStartFromISOWeek();
+            recordset['endWeek'] = today.getEndFromISOWeek();
+             recordset['week'] = week;
+            recordset['year'] = year;
     return res.status(200).json(recordset);
   }
 //console.log("config[i].query(year, week)",config[5].query(year, week));
@@ -176,13 +176,16 @@ app.get('/api/get_employees_stats/:uid', function (req, res) {
         if (config[i].view_id == req.params.uid) {
 
           return new sql.Request().query(config[i].query(year, week)).then(function (recordset) {
+var r = {};
             console.timeEnd('get_employees_stats');
-            /*recordset['startWeek'] = today.getStartFromISOWeek();
-            recordset['endWeek'] = today.getEndFromISOWeek();
-            recordset['week'] = week;
-            recordset['year'] = year;*/
+            r['startWeek'] = today.getStartFromISOWeek();
+            r['endWeek'] = today.getEndFromISOWeek();
+            r['week'] = week;
+            r['year'] = year;
+            r['employees'] = recordset;
 
-            res.status(200).json(recordset);
+
+            res.status(200).json(r);
           }).catch(function (err) {
             res.json("Error query", err);
           });
