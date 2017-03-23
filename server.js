@@ -73,7 +73,7 @@ app.get('/', function (req, res, next) {
     res.end('Access denied')
   }
 })
-var dev = false;
+var dev = true;
 
 //only for development
 if(dev)
@@ -162,10 +162,10 @@ app.get('/api/get_employees_stats/:uid', function (req, res) {
   if(dev){
     var recordset = require('./sample-datadb.js');
     
-            recordset['startWeek'] = today.getStartFromISOWeek();
-            recordset['endWeek'] = today.getEndFromISOWeek();
-            recordset['week'] = week;
-            recordset['year'] = year;
+            // recordset['startWeek'] = today.getStartFromISOWeek();
+            // recordset['endWeek'] = today.getEndFromISOWeek();
+            // recordset['week'] = week;
+            // recordset['year'] = year;
     return res.status(200).json(recordset);
   }
   sql.connect("mssql://ingress:ingress@192.168.1.51/ReportsAAB").then(function () {

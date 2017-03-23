@@ -436,23 +436,55 @@ var EmployeeStatsComponent = (function () {
         this.update_data();
     };
     ;
+    EmployeeStatsComponent.prototype.loadScript = function (url, callback) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.onload = function () {
+            callback();
+        };
+        script.src = url;
+        document.getElementsByTagName("head")[0].appendChild(script);
+    };
     EmployeeStatsComponent.prototype.ngOnInit = function () {
         var t = this;
         var d = new Date();
         this.todayDay = d.getDay();
         console.log("todayDay", this.todayDay);
-        t.update_data();
+        //t.update_data();
         t.update_stats = setInterval(function () {
             t.update_data();
         }, 60 * 1000); //60 seconds
     };
     EmployeeStatsComponent.prototype.ngAfterViewInit = function () {
+        // setTimeout(function(){
+        //   t.updateyearorWeek();
+        // },500)
+        this.updateyearorWeek();
+    };
+    EmployeeStatsComponent.prototype.load_data = function () {
         var t = this;
-        setTimeout(function () {
-            t.updateyearorWeek();
-        }, 500);
+        new Promise(function (resolve) {
+            t.loadScript('/assets/js/jquery-1.9.1.min.js', function () { resolve(); });
+        }).then(function () {
+            return new Promise(function (resolve) {
+                t.loadScript('/assets/js/bootstrap.min.js', function () { resolve(); });
+            });
+        }).then(function (resolve) {
+            return new Promise(function (resolve) {
+                t.loadScript('/assets/js/moment.min.js', function () { resolve(); });
+            });
+        }).then(function (resolve) {
+            return new Promise(function (resolve) {
+                t.loadScript('/assets/js/bootstrap-datetimepicker.min.js', function () { resolve(); });
+            });
+        }).then(function (resolve) {
+            t.initialize_calendar.call(t);
+        });
     };
     EmployeeStatsComponent.prototype.initialize_calendar = function () {
+        if (typeof moment == 'undefined') {
+            return this.load_data();
+        }
         var t = this;
         moment.locale('en', {
             week: { dow: 0 } // Monday is the first day of the week
@@ -498,8 +530,10 @@ var EmployeeStatsComponent = (function () {
         t.http.get("/api/get_employees_stats/" + t.viewId + "?year=" + t.year + "&week=" + t.week)
             .map(function (res) {
             t.stats.employees = res.json();
-            t.year = t.stats.employees.year;
-            t.week = t.stats.employees.week;
+            if (t.year < 0)
+                t.year = t.stats.employees.year;
+            if (t.week < 0)
+                t.week = t.stats.employees.week;
             t.startWeek = t.stats.employees.startWeek;
             t.endWeek = t.stats.employees.endWeek;
             //console.log(t.stats.employees);
@@ -1368,7 +1402,7 @@ module.exports = "<div class=\"camera-view\" #cameraView  [attr.camid]=\"camera.
 /***/ 626:
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"employees-stats\">\n  <h2>Weekly Summary By Day</h2>\n  <div class=\"summary-interval\">{{startWeek| date: 'dd.MM.yyyy'}} - {{endWeek| date: 'dd.MM.yyyy'}}</div>\n\n\n  <table style=\"width:100%\" class=\"employee-row-container\" >\n    <tr class=\"header\">\n      <th *ngIf=\"groupByVal=='Name'\">Department</th>\n      <th *ngIf=\"groupByVal=='Department'\">Location</th>\n      <th>Name</th>\n      <th>Number</th> \n      <th  [ngClass]=\"{'day_active':todayDay==6}\">Sat</th>\n      <th  [ngClass]=\"{'day_active':todayDay==0}\">Sun</th>\n      <th  [ngClass]=\"{'day_active':todayDay==1}\">Mon</th>\n      <th  [ngClass]=\"{'day_active':todayDay==2}\">Tue</th>\n      <th  [ngClass]=\"{'day_active':todayDay==3}\">Wed</th>\n      <th  [ngClass]=\"{'day_active':todayDay==4}\">Thu</th>\n      <th  [ngClass]=\"{'day_active':todayDay==5}\">Fri</th>\n    </tr>\n    <tbody *ngFor=\"let group of groups\">\n        <h3>{{group.group}}</h3>\n\n      <tr  class=\"row employee-row\" *ngFor=\"let employee of group.elem\" >\n          <td *ngIf=\"groupByVal=='Name'\">{{employee.Department}}</td>\n          <td *ngIf=\"groupByVal=='Department'\">{{employee.Name}}</td>\n          <td class=\"left_align\">{{employee.FullName}}</td>\n          <td>{{employee.SerialNo}}</td>\n          <td [ngClass]=\"{'day_active':todayDay==6}\">{{employee.Saturday }}</td>\n          <td [ngClass]=\"{'day_active':todayDay==0}\">{{employee.Sunday }}</td>\n          <td [ngClass]=\"{'day_active':todayDay==1}\">{{employee.Monday}}</td>\n          <td [ngClass]=\"{'day_active':todayDay==2}\">{{employee.Tuesday }}</td>\n          <td [ngClass]=\"{'day_active':todayDay==3}\">{{employee.Wednesday }}</td>\n          <td [ngClass]=\"{'day_active':todayDay==4}\">{{employee.Thursday}}</td>\n          <td [ngClass]=\"{'day_active':todayDay==5}\">{{employee.Friday }}</td>\n        </tr>\n    </tbody>\n\n   \n</table>\n\n</div>\n\n<div class=\"summary_commands\">\n  <div class=\"input_stats_emp_container\">\n<select #item (change)=\"groupBy(item.value)\" [(ngModel)]=\"groupByVal\" style=\"margin:10px 0\">\n  <option value=\"Name\" >Location</option>\n  <option value=\"Department\">Department</option>\n</select>\n</div>\n<!--<div class=\"input_stats_emp_container\">\n  <h4>Year :\n    <select class=\"input_stats_emp\" [(ngModel)]=\"year\" (ngModelChange)=\"updateyearorWeek()\">\n    <option *ngFor=\"let i of years\" value=\"{{i}}\">{{i}}</option>\n  </select>\n  </h4>\n  <h4>Month :<select class=\"input_stats_emp\" [(ngModel)]=\"month\" (ngModelChange)=\"updateyearorWeek()\">\n    <option *ngFor=\"let i of months\" value=\"{{i}}\">{{i}}</option>\n  </select>\n  </h4>\n  <h4>Week :<select class=\"input_stats_emp\" [(ngModel)]=\"week\" (ngModelChange)=\"updateyearorWeek()\">\n    <option *ngFor=\"let i of weeks\" value=\"{{i}}\">{{i}}</option>\n  </select>\n  </h4>\n  </div>-->\n  <input type='text' id='weeklyDatePicker' placeholder=\"Select Week\" value=\"{{startWeek| date: 'dd.MM.yyyy'}} - {{endWeek| date: 'dd.MM.yyyy'}}\" />\n  </div>\n\n"
+module.exports = "\n<div class=\"employees-stats\">\n  <h2>Weekly Summary By Day</h2>\n  <div class=\"summary-interval\">{{startWeek| date: 'dd.MM.yyyy'}} - {{endWeek| date: 'dd.MM.yyyy'}}</div>\n\n\n  <table style=\"width:100%\" class=\"employee-row-container\" >\n    <tr class=\"header\">\n      <th *ngIf=\"groupByVal=='Name'\">Department</th>\n      <th *ngIf=\"groupByVal=='Department'\">Location</th>\n      <th>Name</th>\n      <th>Number</th> \n      <th  [ngClass]=\"{'day_active':todayDay==6}\">Sat</th>\n      <th  [ngClass]=\"{'day_active':todayDay==0}\">Sun</th>\n      <th  [ngClass]=\"{'day_active':todayDay==1}\">Mon</th>\n      <th  [ngClass]=\"{'day_active':todayDay==2}\">Tue</th>\n      <th  [ngClass]=\"{'day_active':todayDay==3}\">Wed</th>\n      <th  [ngClass]=\"{'day_active':todayDay==4}\">Thu</th>\n      <th  [ngClass]=\"{'day_active':todayDay==5}\">Fri</th>\n    </tr>\n    <tbody *ngFor=\"let group of groups\">\n        <h3>{{group.group}}</h3>\n\n      <tr  class=\"row employee-row\" *ngFor=\"let employee of group.elem\" >\n          <td *ngIf=\"groupByVal=='Name'\" class=\"left_align\">{{employee.Department}}</td>\n          <td *ngIf=\"groupByVal=='Department'\" class=\"left_align\">{{employee.Name}}</td>\n          <td class=\"left_align\">{{employee.FullName}}</td>\n          <td>{{employee.SerialNo}}</td>\n          <td [ngClass]=\"{'day_active':todayDay==6}\">{{employee.Saturday }}</td>\n          <td [ngClass]=\"{'day_active':todayDay==0}\">{{employee.Sunday }}</td>\n          <td [ngClass]=\"{'day_active':todayDay==1}\">{{employee.Monday}}</td>\n          <td [ngClass]=\"{'day_active':todayDay==2}\">{{employee.Tuesday }}</td>\n          <td [ngClass]=\"{'day_active':todayDay==3}\">{{employee.Wednesday }}</td>\n          <td [ngClass]=\"{'day_active':todayDay==4}\">{{employee.Thursday}}</td>\n          <td [ngClass]=\"{'day_active':todayDay==5}\">{{employee.Friday || '' }}</td>\n        </tr>\n    </tbody>\n\n   \n</table>\n\n</div>\n\n<div class=\"summary_commands\">\n  <div class=\"input_stats_emp_container\">\n<select #item (change)=\"groupBy(item.value)\" [(ngModel)]=\"groupByVal\" style=\"margin:10px 0\">\n  <option value=\"Name\" >Location</option>\n  <option value=\"Department\">Department</option>\n</select>\n</div>\n<!--<div class=\"input_stats_emp_container\">\n  <h4>Year :\n    <select class=\"input_stats_emp\" [(ngModel)]=\"year\" (ngModelChange)=\"updateyearorWeek()\">\n    <option *ngFor=\"let i of years\" value=\"{{i}}\">{{i}}</option>\n  </select>\n  </h4>\n  <h4>Month :<select class=\"input_stats_emp\" [(ngModel)]=\"month\" (ngModelChange)=\"updateyearorWeek()\">\n    <option *ngFor=\"let i of months\" value=\"{{i}}\">{{i}}</option>\n  </select>\n  </h4>\n  <h4>Week :<select class=\"input_stats_emp\" [(ngModel)]=\"week\" (ngModelChange)=\"updateyearorWeek()\">\n    <option *ngFor=\"let i of weeks\" value=\"{{i}}\">{{i}}</option>\n  </select>\n  </h4>\n  </div>-->\n  <input type='text' id='weeklyDatePicker' placeholder=\"Select Week\" value=\"{{startWeek| date: 'dd.MM.yyyy'}} - {{endWeek| date: 'dd.MM.yyyy'}}\" />\n  </div>\n\n"
 
 /***/ }),
 
