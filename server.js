@@ -49,8 +49,8 @@ function responseFile(filePath, response) {
 
 
 
-server.listen(6147);
-console.log("Server listen on: http://localhost:6147");
+server.listen(8080);
+console.log("Server listen on: http://localhost:8080");
 checkCredentials = function (credentials) {
   var config_users = require('./config_users.json');
   if (!credentials) return false;
