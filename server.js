@@ -18,13 +18,25 @@ var cors = require('cors');
 app.use(cors());
 app.options('*', cors());
 
-var proxy = require('http-proxy').createProxyServer({
+const http_proxy = require('http-proxy');
+
+var proxy = http_proxy.createProxyServer({
   host: 'http://login.fams.cc',
   // port: 80
 });
 
-var proxy2 = require('http-proxy').createProxyServer({
+var proxy2 = http_proxy.createProxyServer({
   host: 'http://localhost:4200',
+  // port: 80
+});
+
+var proxy3 = http_proxy.createProxyServer({
+  host: 'http://cloud.xeoma.com',
+  // port: 80
+});
+//http://admin:12345@aab008-c011.aabtools.com/Streaming/channels/1/picture
+var proxy4 = http_proxy.createProxyServer({
+  host: 'http://aabtools.com',
   // port: 80
 });
 
@@ -73,7 +85,7 @@ app.get('/', function (req, res, next) {
     res.end('Access denied')
   }
 })
-var dev = process.env.NODE_DEV===true ||false;
+var dev = process.env.NODE_DEV=="true" ||false;
 if(dev){
   console.log("This version is for debugging.")
 }else{
@@ -98,9 +110,70 @@ app.use('/fams/', function (req, res, next) {
 });
 
 app.use('/xeoma/', function (req, res, next) {
-  proxy.web(req, res, {
+  proxy3.web(req, res, {
     target: 'http://cloud.xeoma.com:10090'
   }, next);
+});
+
+
+app.use('/proxy/:url', function (req, res, next) {
+  proxy3.web(req, res, {
+    target: req.params.url
+  }, next);
+});
+
+
+//http://admin:12345@aab008-c011.aabtools.com/Streaming/channels/1/picture
+app.use('/aab/', function (req, res, next) {
+  console.log("link",req.query)
+
+  var options = {
+    // host to forward to
+    host:   req.query.host,
+    // port to forward to
+    port:   80,
+    // path to forward to
+    path:   req.query.path,
+    // request method
+    method: req.query.method,
+  };
+  var creq = http.request(options, function(cres) {
+
+    // set encoding
+    cres.setEncoding('utf8');
+
+    // wait for data
+    cres.on('data', function(chunk){
+      res.write(chunk);
+    });
+
+    cres.on('close', function(){
+      // closed, let's end client request as well 
+      console.log('close')
+      res.writeHead(cres.statusCode);
+      res.end();
+    });
+
+    cres.on('end', function(){
+      console.log('end')
+      // finished, let's finish client request as well 
+     // res.writeHead(cres.statusCode);
+      res.end();
+    });
+
+  }).on('error', function(e) {
+    // we got an error, return 500 error to client and log error
+    console.log(e.message);
+    res.writeHead(500);
+    res.end();
+  });
+
+  creq.end();
+
+
+  // proxy4.web(req, res, {
+  //   target: req.query.link
+  // }, next);
 });
 
 app.get('/signout', function (req, res) {
