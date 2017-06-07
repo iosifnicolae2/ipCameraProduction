@@ -1,5 +1,4 @@
 module.exports = [
-
   {
     "view_type":"grid9",
     "view_name":"HeadOffice",
