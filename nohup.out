@@ -1,0 +1,21 @@
+Server listen on: http://localhost:8080
+This version is for production.
+Server listen on: http://localhost:8080
+This version is for production.
+Server listen on: http://localhost:8080
+This version is for production.
+Server listen on: http://localhost:8080
+This version is for production.
+Server listen on: http://localhost:8080
+This version is for production.
+Error: Cannot find module './dist/assets/config-mustafa.js'
+    at Function.Module._resolveFilename (module.js:470:15)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at /root/ipCameraProduction/server.js:68:14
+    at Layer.handle [as handle_request] (/root/ipCameraProduction/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/ipCameraProduction/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/ipCameraProduction/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/ipCameraProduction/node_modules/express/lib/router/layer.js:95:5)
+    at /root/ipCameraProduction/node_modules/express/lib/router/index.js:281:22

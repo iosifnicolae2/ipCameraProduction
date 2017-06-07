@@ -1,12 +1,7 @@
 [
-    {
-        "username": "iosif",
-        "password": "test123",
-        "config":"./src/assets/config-iosif.js"
-    },
-    {
-        "username": "taher",
-        "password": "test123",
-        "config":"./src/assets/config-taher.js"
-    }
+    
+   { "username": "taher", "password": "Tally123", "config":"./dist/assets/config-taher.js" }
+,  { "username": "mustafa", "password": "@mustafa", "config":"./dist/assets/config-mustafa.js" }
+,  { "username": "shabbir", "password": "@sse", "config":"./dist/assets/config-shabbir.js" }
 ]
+
