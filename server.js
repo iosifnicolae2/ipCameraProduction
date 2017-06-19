@@ -118,7 +118,8 @@ app.use('/xeoma/', function (req, res, next) {
 
 app.use('/proxy/:url', function (req, res, next) {
   proxy3.web(req, res, {
-    target: req.params.url
+    target: req.params.url,
+    auth:req.params.auth
   }, next);
 });
 
