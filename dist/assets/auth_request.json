@@ -1,0 +1,9 @@
+[
+    {
+       "url":"/aab/?host=aabtools.com&path=/Streaming/channels/1/picture&method=GET&auth=admin:12345",
+        "method":"GET"
+    },{
+        "url":"/xeoma/image8.jpg?login=taher_shabbir_gmail_com&password=FyBAy0w3ZCprXYuFH0DLT0joxQHWyK8V&getsessionkey=",
+        "method":"GET"
+    }
+]

@@ -2,7 +2,7 @@
 files.
 
 # compiled output
-/dist
+#/dist
 /tmp
 
 # dependencies
