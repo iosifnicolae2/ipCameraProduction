@@ -61,8 +61,8 @@ function responseFile(filePath, response) {
 
 
 
-server.listen(8080);
-console.log("Server listen on: http://localhost:8080");
+server.listen(8081);
+console.log("Server listen on: http://localhost:8081");
 checkCredentials = function (credentials) {
   var config_users = require('./config_users.json');
   if (!credentials) return false;
@@ -149,7 +149,7 @@ app.use('/aab/', function (req, res, next) {
     });
 
     cres.on('close', function(){
-      // closed, let's end client request as well 
+      // closed, let's end client request as well
       console.log('close')
       res.writeHead(cres.statusCode);
       res.end();
@@ -157,7 +157,7 @@ app.use('/aab/', function (req, res, next) {
 
     cres.on('end', function(){
       console.log('end')
-      // finished, let's finish client request as well 
+      // finished, let's finish client request as well
      // res.writeHead(cres.statusCode);
       res.end();
     });
@@ -183,21 +183,21 @@ app.get('/signout', function (req, res) {
 })
 
 
-/** 
-* Get the ISO week date year number 
-*/  
-Date.prototype.getWeekYear = function ()   
-{  
-  // Create a new date object for the thursday of this week  
-  var target  = new Date(this.valueOf());  
-  target.setDate(target.getDate() - ((this.getDay() + 6) % 7) + 3);  
+/**
+* Get the ISO week date year number
+*/
+Date.prototype.getWeekYear = function ()
+{
+  // Create a new date object for the thursday of this week
+  var target  = new Date(this.valueOf());
+  target.setDate(target.getDate() - ((this.getDay() + 6) % 7) + 3);
 
-  return target.getFullYear();  
+  return target.getFullYear();
 }
 
-/** 
+/**
  * Convert ISO week number and year into date (first day of week)
- */ 
+ */
 Date.prototype.getStartFromISOWeek = function() {
   return new Date(this.getFullYear(),0,(this.getWeek()-1)*7)
 }
@@ -206,31 +206,31 @@ Date.prototype.getEndFromISOWeek = function() {
 }
 
 Date.prototype.getWeek = function() {
-// Create a copy of this date object  
-  var target  = new Date(this.valueOf());  
+// Create a copy of this date object
+  var target  = new Date(this.valueOf());
 
-  // ISO week date weeks start on monday  
-  // so correct the day number  
-  var dayNr   = (this.getDay() + 15) % 7;  
+  // ISO week date weeks start on monday
+  // so correct the day number
+  var dayNr   = (this.getDay() + 15) % 7;
 
-  // ISO 8601 states that week 1 is the week  
-  // with the first thursday of that year.  
-  // Set the target date to the thursday in the target week  
-  target.setDate(target.getDate() - dayNr + 3);  
+  // ISO 8601 states that week 1 is the week
+  // with the first thursday of that year.
+  // Set the target date to the thursday in the target week
+  target.setDate(target.getDate() - dayNr + 3);
 
-  // Store the millisecond value of the target date  
-  var firstThursday = target.valueOf();  
+  // Store the millisecond value of the target date
+  var firstThursday = target.valueOf();
 
-  // Set the target to the first thursday of the year  
-  // First set the target to january first  
-  target.setMonth(0, 1);  
-  // Not a thursday? Correct the date to the next thursday  
-  if (target.getDay() != 4) {  
-    target.setMonth(0, 1 + ((4 - target.getDay()) + 7) % 7);  
-  }  
+  // Set the target to the first thursday of the year
+  // First set the target to january first
+  target.setMonth(0, 1);
+  // Not a thursday? Correct the date to the next thursday
+  if (target.getDay() != 4) {
+    target.setMonth(0, 1 + ((4 - target.getDay()) + 7) % 7);
+  }
 
-  // The weeknumber is the number of weeks between the   
-  // first thursday of the year and the thursday in the target week  
+  // The weeknumber is the number of weeks between the
+  // first thursday of the year and the thursday in the target week
   return 1 + Math.ceil((firstThursday - target) / 604800000); // 604800000 = 7 * 24 * 3600 * 1000                   - 3 + (week1.getDay() + 6) % 7) / 7);
 }
 app.get('/api/get_employees_stats/:uid', function (req, res) {
@@ -238,7 +238,7 @@ app.get('/api/get_employees_stats/:uid', function (req, res) {
   var year = req.query.year,
     week = req.query.week,
     today = new Date();
-    
+
   if (typeof year == 'undefined' || year < 0) {
     year = today.getFullYear();
   }
@@ -249,7 +249,7 @@ app.get('/api/get_employees_stats/:uid', function (req, res) {
  // console.log("Year and week: ",year,week);
   // if(dev){
   //   var recordset = require('./sample-datadb.js');
-    
+
   //            recordset['startWeek'] = today.getStartFromISOWeek();
   //           recordset['endWeek'] = today.getEndFromISOWeek();
   //            recordset['week'] = week;
